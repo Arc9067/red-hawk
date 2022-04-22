@@ -1,0 +1,341 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-color: rgb(17, 16, 16);
+    /* background: white; */
+    font-family: popins;
+}
+
+@font-face {
+    font-family: popins;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    /* background-color: black; */
+    display: flex;
+    align-items: left;
+    margin-top: 20px;
+    z-index: 1000;
+}
+
+nav{
+    margin-left: 5%;
+    width: 40%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content:nth-child(1){
+    width: 30%;
+}
+
+.nav-content i{
+    color: red;
+    font-size: 30px;
+    padding-right: 40px;
+}
+
+.nav-content{
+    width: 65%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-content a{
+    text-decoration: none;
+}
+
+.nav-content i:hover{
+    color: white;
+}
+
+.nav-content h3{
+    color: red;
+    font-size: 25px;
+    padding-left: 30px;
+    text-decoration: none;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.nav-content h3:hover{
+    color: white;
+}
+
+.home{
+    height: 600px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-home{
+    height: 100%;
+    width: 95%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-about{
+    height: 100%;
+    width: 95%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+.about-content:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content h3{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.about-content h3:nth-child(2){
+    font-size: 40px;
+    margin-top: 20px;
+    color: red;
+}
+
+.about-content p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+.about-content>a>button{
+    margin-top: 30px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    outline: none;
+}
+
+.about-content:nth-child(2){
+    background: url(./img/With\ Type.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: purple; */
+    margin-top: 20px;
+}
+
+.tokenomics{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-tokenomics{
+    height: 90%;
+    width: 95%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-tk{
+    height: 30%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-tokenomics{
+    height: 70%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mcontent{
+    width: 23%;
+    height: 100%;
+    /* background-color: rgb(158, 19, 19); */
+    background: red;
+    border-top-right-radius: 10%;
+}
+
+
+.mcontent-img{
+    height: 60%;
+    width: 100%;
+    background-color: white;
+}
+
+.market{
+    background: url(./img/Marketing\ .gif);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.buyback{
+    background: url(./img/Buy\ back\ .gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.liquidity{
+    background: url(./img/Liquidity\ .gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+.dev{
+    background: url(./img/DEV\ FEES\ .gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.mcontent-txt{
+    height: 40%;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: white;
+}
+
+.mcontent-txt h3{
+    font-weight: bold;
+}
+
+.mcontent-txt p{
+    text-align: center;margin-top: 20px;
+}
+
+.roadmap{
+    height: 100vh;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-roadmap{
+    height: 90%;
+    width: 95%;
+    /* background-color: yellow; */
+}
+
+.img-rd{
+    height: 30%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-roadmap{
+    height: 70%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inm-roadmap{
+    height: 90%;
+    width: 90%;
+    /* background-color: purple; */
+    border-radius: 20px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mroadmap{
+    height: 100%;
+    width: 22%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.mroadmap h3{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.mroadmap ul{
+    height: 80%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
